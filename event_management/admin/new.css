@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html ,body{
+    height:100%;
+    width:100%;
+    background-color:black;
+    color:white;
+    font-size:40px;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:3%;
+}
+#container #inputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#button button{
+    height:40px;
+    width:60px;  
+    font-size:20px;
+
+}
+
+#inputs{
+    width:50%;
+}
+a{
+    font-size: 15px;
+    color:white;
+    text-decoration: none;
+}
